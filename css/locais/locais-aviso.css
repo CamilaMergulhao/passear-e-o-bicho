@@ -1,0 +1,61 @@
+.locais-aviso-bg{
+background-color: var(--cor-id-1);
+position: relative;
+}
+
+
+.locais-aviso{
+padding-top: 100px;
+padding-bottom: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.locais-aviso-img{
+margin-bottom: 40px;
+}
+
+.locais-aviso-texto{
+max-width: 650px;
+text-align: center;
+}
+
+
+
+@media(max-width: 768px){
+.locais-aviso{
+margin-left: 10px;
+margin-right: 10px;
+padding-top: 80px;
+padding-bottom: 80px;
+padding-right: 15px;
+padding-left: 15px;
+}
+
+.locais-aviso-img{
+margin-bottom: 30px;
+}
+
+.locais-aviso-img svg{
+width: 180px;
+height: auto;
+}
+}
+
+
+@media(max-width: 480px){
+
+.locais-aviso{
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
+.locais-aviso-img svg{
+width: 150px;
+height: auto;
+}
+
+
+}

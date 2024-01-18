@@ -1,0 +1,107 @@
+.banner-app-bg{
+background-color: var(--cor-id-1);
+background-image: url('../../img/img/pata-banner-01.svg'), url('../../img/img/pata-banner-02.svg');
+background-repeat: no-repeat, no-repeat;
+background-size: 75%, 40%;
+background-position: left -80% top 50%, right -30% top 30%;
+}
+
+.banner-app{
+padding-top: 30px;
+padding-bottom: 30px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+
+.banner-app-texto-title{
+max-width: 550px;
+margin-bottom: 30px;
+}
+
+.banner-app-qrcode{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 230px;
+height: 230px;
+border: 1px dashed var(--cor-brand-2);
+}
+
+.banner-app-qrcode img{
+width: 200px;
+height: 200px;
+}
+
+.banner-app-icon{
+width: 150px;
+height: auto;
+}
+
+.banner-app-texto-img{
+display: flex;
+gap: 20px;
+}
+
+
+
+
+@media (max-width: 768px){
+.banner-app-bg{
+background-position: left -100% top 50% right -30% top 30%;
+}
+
+.banner-app{
+flex-direction: column-reverse;
+align-items: center;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+.banner-app-qrcode{
+margin-bottom: 30px;
+}
+
+.banner-app-texto{
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+}
+
+
+@media(max-width: 480px){
+
+.banner-app-bg{
+background-size: 85%, 40%;
+background-position: left -80% bottom 30%, right -20% top 10%;
+}
+
+    
+.banner-app-texto-title {
+margin-bottom: 40px;
+}
+
+.banner-app-qrcode img{
+width: 160px;
+height: 160px;
+}
+
+.banner-app-qrcode{
+width: 180px;
+height: 180px;
+}
+
+.banner-app-texto-img{
+gap: 15px;
+}
+
+.banner-app-icon{
+width: 130px;
+height: auto;
+}
+
+
+}

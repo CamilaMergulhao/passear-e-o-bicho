@@ -1,0 +1,55 @@
+@import "global/global.css";
+@import "global/header.css";
+@import "global/footer.css";
+@import "global/modalLogin.css";
+@import "global/menu-fixo.css";
+
+
+/*Utilidades*/
+@import "utilidades/componentes.css";
+@import "utilidades/tipografia.css";
+@import "utilidades/cores.css";
+
+
+/*home*/
+@import "home/introducao.css";
+@import "home/passeios.css";
+@import "home/locaos-passeios.css";
+@import "home/moda-pet.css";
+@import "home/banner-app.css";
+@import 'home/faq.css';
+
+/* locais */
+@import "locais/locais-introdução.css";
+@import "locais/locais.css";
+@import "locais/locais-aviso.css";
+
+/* passeios */
+@import "passeios/passeios-introducao.css";
+@import "passeios/tipos-passeios.css";
+@import "passeios/planos.css";
+
+/* quem somos */
+@import "quemsomos/somos-introducao.css";
+@import "quemsomos/somos-missao.css";
+@import "quemsomos/somos-equipe.css";
+
+/* produtos */
+@import "produtos/roupas-introducao.css";
+@import "produtos/roupas.css";
+@import "produtos/descricao-roupas.css";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

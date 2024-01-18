@@ -1,0 +1,63 @@
+.equipe-quem-somos-bg{
+background-color: var(--cor-4);
+position: relative;
+}
+
+
+.equipe-quem-somos{
+padding-top: 100px;
+padding-bottom: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.equipe-texto{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+max-width: 600px;
+margin-bottom: 30px;
+}
+
+.equipe-texto h2{
+margin-bottom: 30px;
+}
+
+.equipe-texto p{
+max-width: 350px;
+}
+
+
+
+
+
+
+@media(max-width: 850px){
+.equipe-quem-somos{
+padding-top: 60px;
+padding-bottom: 60px;
+}
+}
+
+
+@media(max-width: 768px){
+
+.equipe-quem-somos{
+margin-left: 10px;
+margin-right: 10px;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+
+.equipe-quem-somos h2{
+margin-bottom: 20px;
+}
+
+
+
+
+}

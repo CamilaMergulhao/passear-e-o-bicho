@@ -1,0 +1,48 @@
+#quem-somos-header{
+background-color: var(--cor-id-2);
+}
+
+.introducao-quem-somos-bg{
+background-color: var(--cor-id-2);
+position: relative;
+}
+
+.introducao-quem-somos{
+padding-top: 100px;
+padding-bottom: 100px;
+text-align: center;
+max-width: 750px;
+}
+
+
+
+.decorador-local-bottom svg{
+width: 100%;
+height: auto;
+}
+
+
+
+
+
+.introducao-quem-somos h1{
+margin-bottom: 15px;
+}
+
+.br-intro-text{
+margin-bottom: 40px;
+}
+
+
+
+@media(max-width:768px){
+.introducao-quem-somos{
+margin-left: 10px;
+margin-right: 10px;
+padding-top: 60px;
+padding-bottom: 60px;
+ 
+}
+}
+
+

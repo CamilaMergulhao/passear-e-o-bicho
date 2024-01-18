@@ -1,0 +1,75 @@
+.introducao-passeios-bg, #header-passeios{
+background-color: var(--cor-4);
+}
+
+.introducao-passeios{
+padding-top: 100px;
+display: flex;
+justify-content: space-between;
+}
+
+.introducao-passeios-texto{
+max-width: 600px;
+padding-top: 30px;
+}
+
+.introducao-passeios-texto h1{
+margin-bottom: 20px;
+}
+
+.introducao-imagem-passeios {
+max-width: 330px;
+width: 100%;
+}
+
+.introducao-imagem-passeios img{
+object-fit: contain;
+width: 100%;
+height: auto;
+}
+
+
+
+
+@media(max-width: 990px){
+.introducao-passeios{
+display: flex;
+flex-direction: column;
+padding-top: 60px;
+}
+
+.introducao-passeios-texto{
+align-self: start;
+margin-bottom: 40px;
+padding-top: 0px;
+}
+
+.introducao-imagem-passeios {
+align-self: center;
+}
+}
+
+
+@media(max-width: 768px){
+.introducao-imagem-passeios{
+max-width: 280px;
+}
+.introducao-texto{
+align-self: start;
+}
+}
+
+
+
+@media(max-width: 480px){
+.introducao-passeios{
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.introducao-imagem-passeios{
+max-width: 230px;
+}
+
+
+}

@@ -1,0 +1,186 @@
+.passeios-bg{
+background-color: var(--cor-0);
+}
+
+.passeios {
+padding-top: 80px;
+padding-bottom: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-left: 45px;
+padding-right: 45px;
+}
+
+
+.passeios-title{
+text-align: center;
+margin-bottom: 80px;
+}
+
+.passeios-title h2{
+margin-bottom: 10px;
+}
+
+
+.passeios-title p{
+max-width: 350px;
+}
+
+
+.decorador-patas{
+display: flex;
+gap: 10px;
+margin-bottom: 25px;
+}
+
+.decorador-patas img{
+width: 23px;
+height: auto;
+}
+
+
+.passeios-tipos{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 35px;
+margin-bottom: 100px;
+}
+
+.passeios-numbers{
+background-color: var(--cor-id-1);
+width: 85px;
+height: 85px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 4px solid var(--cor-4);
+}
+
+.passeios-box{
+background-color: var(--cor-0);
+border: 4px solid var(--cor-4);
+border-radius: 45px;
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+text-align: center;
+align-items: center;
+padding-top: 25px;
+padding-left: 25px;
+padding-right: 25px;
+padding-bottom: 40px;
+gap: 20px;
+box-shadow: 0 15px 0 0 var(--cor-4);
+}
+
+
+.passeios-box-centro{
+background-color: var(--cor-id-1);
+border: 4px solid var(--cor-4);
+border-radius: 45px;
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+text-align: center;
+align-items: center;
+padding-top: 25px;
+padding-left: 25px;
+padding-right: 25px;
+padding-bottom: 40px;
+gap: 20px;
+box-shadow: 0 15px 0 0 var(--cor-4);
+}
+
+
+
+@media(max-width: 990px){
+.passeios-title{
+margin-bottom: 60px;
+}
+
+.passeios-tipos{
+grid-template-columns: 1fr;
+gap: 40px;
+padding-left: 80px;
+padding-right: 80px;
+margin-bottom: 60px;
+}
+}
+
+
+
+@media(max-width: 768px){
+.passeios{
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 60px;
+padding-bottom: 60px;
+}
+}
+
+
+@media(max-width: 550px){
+.passeios-tipos{
+padding-left:60px;
+padding-right:60px;
+margin-bottom: 50px;
+}
+}
+
+
+@media(max-width: 480px){
+.passeios{
+padding-left: 15px;
+padding-right: 15px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.passeios-box, .passeios-box-centro{
+padding-top: 15px;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 20px;
+}
+
+.passeios-tipos{
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.passeios-title{
+margin-bottom: 40px;
+}
+
+.passeios-title h2{
+margin-bottom: 8px;
+}
+
+.passeios-numbers{
+width: 65px;
+height: 65px;
+}
+}
+
+@media(max-width: 380px){
+
+.passeios{
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.passeios-tipos{
+padding-left: 20px;
+padding-right: 20px;
+}
+}
+
+
+
+
+
+
+
+

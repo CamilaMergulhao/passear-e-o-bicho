@@ -1,0 +1,74 @@
+#introducao-locais, #header-locais{
+background-color: var(--cor-4);
+}
+
+.introducao-locais{
+padding-top: 100px;
+display: flex;
+justify-content: space-between;
+}
+
+.introducao-locais-texto{
+max-width: 600px;
+padding-top: 30px;
+}
+
+.introducao-locais-texto h1{
+margin-bottom: 20px;
+}
+
+.introducao-imagem-locais {
+max-width: 330px;
+width: 100%;
+}
+
+.introducao-imagem-locais img{
+object-fit: contain;
+width: 100%;
+height: auto;
+}
+
+
+
+
+@media(max-width: 990px){
+.introducao-locais{
+display: flex;
+flex-direction: column;
+padding-top: 60px;
+}
+
+.introducao-locais-texto{
+align-self: start;
+margin-bottom: 40px;
+padding-top: 0px;
+}
+
+.introducao-imagem-locais{
+align-self: center;
+}
+}
+
+
+
+@media(max-width: 768px){
+.introducao-imagem-locais{
+max-width: 280px;
+}
+.introducao-locais-texto{
+align-self: start;
+}
+}
+
+
+
+@media(max-width: 480px){
+.introducao-locais{
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.introducao-imagem-locais{
+max-width: 230px;
+}
+}

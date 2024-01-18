@@ -1,0 +1,262 @@
+.container{
+box-sizing: border-box; 
+padding: 0px 15px 0px 15px;
+max-width: 1200px; 
+margin: 0 auto;
+}
+
+/*///////////// */
+
+/* decorador-top e decorador-box */
+
+.decorador-box-top{
+display: flex;
+justify-content: center;
+z-index: 1;
+background-color: transparent;
+width: 100%;
+position: absolute;
+top: 0;
+bottom: auto;
+left: 0%;
+right: 0%;
+transform: translate(0, -30%);
+}
+
+.decorador-box-bottom{
+display: flex;
+justify-content: center;
+z-index: 1;
+background-color: transparent;
+width: 100%;
+position: absolute;
+bottom: 0;
+top: auto;
+left: 0%;
+right: 0%;
+transform: translate(0, 30%);
+}
+
+.decorador-box-top svg,
+.decorador-box-bottom svg{
+width: 100%;
+height: auto;
+}
+
+/*///////////// */
+
+/* botão numeros */
+
+.btn-tamanhos-numeros{
+background-color: var(--cor-0);
+color: var(--cor-4);
+box-shadow: 0 2px 0 0 black;
+height: 15px;
+width: 15px;
+border-radius: 50%;
+border: 1px solid black;
+padding: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Public Sans', sans-serif;
+font-size: 0.875rem;
+font-weight: 600;
+}
+
+.btn-tamanhos-numeros:hover{
+background-color: var(--cor-line);
+}
+
+
+/*///////////// */
+
+
+/* decorador-line */
+
+.decorador-line{
+width: 100%;
+height: 2px;
+background-color: var(--cor-line);
+}
+
+/*///////////// */
+
+
+/* link-contato */
+
+.link-btn-contato{
+background-color: var(--cor-0);
+color: var(--cor-4);
+display: block;
+font-family: 'Lilita One', sans-serif;
+font-size: 1.5rem;
+text-transform: uppercase;
+font-weight: normal;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 16px;
+padding-right: 16px;
+display: flex;
+align-items: center;
+box-shadow: 0 4px 0 0 black;
+max-width: max-content;
+border-radius: 10px;
+border: 2px solid black;
+transition: all 0.3s ease-in-out;
+}
+
+.link-btn-contato:hover{
+transform: translateY(-2px);
+box-shadow: none;
+}
+
+
+/*///////////// */
+
+
+/* link-planos */
+
+.link-btn-planos{
+background-color: var(--cor-id-1);
+color: var(--cor-4);
+display: block;
+font-family: 'Public Sans', sans-serif;
+font-size: 1.5rem;
+font-weight: 800;
+padding: 17px 34px;
+box-shadow: 0 4px 0 0 black;
+max-width: max-content;
+border-radius: 15px;
+border: 2px solid black;
+transition: all 0.3s ease-in-out;
+}
+
+
+.link-btn-planos:hover{
+transform: translateY(-2px);
+box-shadow: none;
+}
+
+/*///////////// */
+
+
+/* link-mod-2 */
+
+.link-btn-mod-2{
+background-color: var(--cor-id-1);
+color: var(--cor-4);
+display: block;
+font-family: 'Public Sans', sans-serif;
+font-size: 1.125rem;
+font-weight: 800;
+padding: 15px 20px;
+box-shadow: 0 4px 0 0 black;
+max-width: max-content;
+border-radius: 15px;
+border: 2px solid black;
+transition: all 0.3s ease-in-out;
+}
+
+.link-btn-mod-2:hover{
+transform: translateY(-2px);
+box-shadow: none;
+}
+
+
+/*///////////// */
+
+
+/* link-mod-3 */
+
+.link-btn-mod-3{
+background-color: var(--cor-0);
+}
+
+.link-btn-mod-3-1{
+background-color: var(--cor-id-1);
+}
+
+.link-btn-mod-3, .link-btn-mod-3-1{
+color: var(--cor-4);
+display: block;
+font-family: 'Public Sans', sans-serif;
+font-size: 1.125rem;
+font-weight: 800;
+padding: 15px 20px;
+box-shadow: 0 4px 0 0 var(--cor-4);
+max-width: max-content;
+border-radius: 15px;
+border: 2px solid var(--cor-4);
+transition: all 0.3s ease-in-out;
+}
+
+.link-btn-mod-3:hover, .link-btn-mod-3-1:hover{
+transform: translateY(-2px);
+box-shadow: none;
+}
+
+/*///////////// */
+
+
+/* link-saiba-mais */
+
+.saiba-mais-link{
+transition: all 0.3s ease-in-out;
+}
+
+.saiba-mais-link:hover{
+transform: translateY(-2px);
+}
+
+.saiba-mais-link::after{
+content: "";
+display: block;
+background-color: var(--cor-id-1);
+height: 8px;
+width: 100%;
+transition: 0.3s;
+}
+
+.saiba-mais-link:hover::after{
+width: 0%;
+}
+
+
+/*///////////// */
+
+
+@media(max-width: 768px){
+.decorador-box-bottom{
+transform: translate(0, 45%);
+}
+.decorador-box-top{
+transform: translate(0, -45%);
+}
+}
+
+@media(max-width: 480px){
+.link-btn-mod-2{
+font-size: 1rem;
+padding: 12px 17px;
+box-shadow: 0 4px 0 0 black;
+border-radius: 15px;
+}
+
+.link-btn-mod-3, .link-btn-mod-3-1{
+font-size: 1rem;
+padding: 12px 17px;
+box-shadow: 0 4px 0 0 black;
+border-radius: 15px;
+}
+
+.link-btn-contato{
+display: none;
+}
+
+.link-btn-planos{
+font-size: 1rem;
+padding: 15px 32px;
+}
+
+}

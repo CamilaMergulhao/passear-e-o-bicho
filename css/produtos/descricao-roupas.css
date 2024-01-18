@@ -1,0 +1,31 @@
+.descricao-roupa-bg{
+background-color: var(--cor-0);
+}
+
+.descricao-roupa{
+padding-top: 60px;
+padding-bottom: 80px;
+}
+
+
+.descricao-roupa-title{
+margin-bottom: 15px;
+}
+
+.descricao-roupa-paragrafo{
+margin-top: 30px;
+margin-bottom: 40px;
+max-width: 900px;
+}
+
+
+
+
+@media(max-width: 970px){
+.descricao-roupa{
+padding-top: 40px;
+padding-bottom: 80px;
+}
+}
+
+

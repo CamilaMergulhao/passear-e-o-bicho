@@ -1,0 +1,154 @@
+.modal-container{
+height: 100vh;
+width: 100%;
+background-color: rgba(0,0,0,.5);
+z-index: 2000;
+position: fixed;
+top: 0;
+left: 0;
+display: none;
+justify-content: center;
+align-items: center;
+}
+
+.modal-container.activo{
+display: flex;
+}
+
+.modal-login{
+background-color: var(--cor-0);
+padding: 40px 40px 20px 40px;
+box-shadow: 0 7px 0 0 var(--cor-4);
+max-width: max-content;
+border-radius: 50px;
+border: 5px solid var(--cor-4);
+position: relative;
+min-width: 300px;
+}
+
+
+.title-modal-login{
+display: block;
+text-align: center;
+margin-bottom: 30px;
+}
+
+
+.fechar-modal{
+position: absolute;
+background-color: var(--cor-id-1);
+border: 4px solid var(--cor-4);
+font-family: 'Lilita One', sans-serif;
+font-weight: normal;
+font-size: 1.125rem;
+top: -40px;
+right: -40px;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+cursor: pointer;
+}
+
+.modal-login label{
+display: block;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.modal-login input{
+width: 100%;
+padding: .7rem .5rem;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+
+
+.modal-login button[type="submit"]{
+background-color: var(--cor-id-1);
+color: var(--cor-4);
+display: block;
+font-family: 'Public Sans', sans-serif;
+font-size: 1.125rem;
+font-weight: 800;
+padding: .7rem .7rem;
+box-shadow: 0 4px 0 0 var(--cor-4);
+max-width: max-content;
+border-radius: 15px;
+border: 2px solid var(--cor-4);
+cursor: pointer;
+margin-bottom: 15px;
+}
+
+.esqueci-senha{
+display: block;
+text-decoration: underline;
+margin-top: 10px;
+}
+
+.login-criar-conta{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 40px;
+}
+
+.link-criar-conta{
+text-decoration: underline;
+}
+
+
+.activo .modal-login{
+animation: modal-login .3s forwards;
+}
+
+@keyframes modal-login{
+    
+    from{
+        opacity: 0;
+        transform: translate3d(0, -30px, 0);
+    }
+
+
+   to{
+        opacity: 1;
+        transform: translate3d(0, 0px, 0);
+    }
+}
+
+
+
+
+@media(max-width: 768px){
+.modal-login{
+padding: 25px 35px 20px 35px;
+box-shadow: 0 7px 0 0 var(--cor-4);
+border-radius: 50px;
+border: 5px solid var(--cor-4);
+min-width: 230px;
+}
+
+
+.title-modal-login{
+margin-bottom: 20px;
+}
+
+.login-criar-conta{
+margin-top: 30px;
+}
+
+.fechar-modal{
+position: absolute;
+background-color: var(--cor-id-1);
+border: 4px solid var(--cor-4);
+font-family: 'Lilita One', sans-serif;
+font-weight: normal;
+font-size: 1.125rem;
+top: -15px;
+right: -15px;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+cursor: pointer;
+}
+}

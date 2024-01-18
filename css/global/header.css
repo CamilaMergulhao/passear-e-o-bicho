@@ -1,0 +1,171 @@
+.header-bg{
+background-color: var(--cor-2);
+}
+
+.header-nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+}
+
+.a-contato-mobile{
+display: none;
+}
+
+.logo-passear-link svg{
+width: 150px;
+height: auto;
+}
+
+
+
+.nav-btn{
+display: flex;
+gap: 15px;
+position: relative;
+}
+
+
+[data-menu="btn-mobile"]{
+background-color: var(--cor-id-1);
+box-shadow: 0 4px 0 0 black;
+max-width: max-content;
+border-radius: 8px;
+border: 2px solid black;
+cursor: pointer;
+height: 45px;
+width: 45px;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: all 0.3s ease-in-out;
+}
+
+
+[data-menu="btn-mobile"]:hover{
+transform: translateY(-2px);
+box-shadow: none;
+}
+
+
+#hamburguer{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 45px;
+width: 45px;
+gap: 4px;
+background-color:transparent;
+}
+
+
+.hamburguer-span{
+height: 3.5px;
+width: 25px;
+background-color: var(--cor-4);
+display: block;
+transition: .3s;
+position: relative;
+}
+
+
+[data-menu="btn-mobile"].ativarMenu .hamburguer-span:nth-child(1){
+background-color: transparent;
+}
+
+[data-menu="btn-mobile"].ativarMenu .hamburguer-span:nth-child(2){
+transform: rotate(135deg);
+}
+
+[data-menu="btn-mobile"].ativarMenu .hamburguer-span:nth-child(3){
+transform: rotate(-135deg);
+top: -7px;
+}
+
+
+#nav{
+padding-top: 10px;
+}
+
+
+[data-menu="list"]{
+display: none;
+text-align: left;
+padding: 25px 20px 25px 0px;
+background-color: var(--cor-4);
+margin-right: 15px;
+border-radius: 20px;
+border: 4px solid black;
+box-shadow: 0 6px 0 0 black;
+width: 300px;
+top: 130px;
+right: 0;
+z-index: 200;
+position: absolute;
+}
+
+[data-menu="list"] li{
+margin-bottom: 15px;
+}
+
+[data-menu="list"] li:last-child{
+margin-bottom: 0px;
+}
+
+[data-menu="list"] li a{
+padding: 10px 60px 10px 20px;
+}
+
+[data-menu="list"] li a:hover{
+color: var(--cor-0);
+}
+
+
+[data-menu="list"].ativarMenu{
+display: block;
+}
+
+
+[data-menu="list"].ativarMenu{
+animation: btn-hamburguer .3s forwards;
+}
+
+
+
+@keyframes btn-hamburguer {
+    
+    from{
+        /* opacity: 0; */
+        transform: translate3d(30px, 0px, 0px);
+    }
+
+
+   to{
+        /* opacity: 1; */
+        transform: translate3d(0px, 0px, 0px);
+    }
+}
+
+
+
+@media(max-width: 480px){
+.a-contato-mobile{
+display: block;
+}
+
+.logo-passear-link svg{
+width: 130px;
+height: auto;
+}
+
+[data-menu="btn-mobile"]{
+height: 40px;
+width: 40px;
+}
+
+[data-menu="list"]{
+width: 250px;
+}
+}

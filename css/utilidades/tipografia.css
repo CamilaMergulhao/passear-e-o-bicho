@@ -1,0 +1,339 @@
+.fontfont-titulo-gg{
+font-family: 'Lilita One', sans-serif;
+font-size: 2.5rem;
+font-weight: normal;
+}
+
+
+.fontfont-titulo-g{
+font-family: 'Lilita One', sans-serif;
+font-size: 1.8rem;
+font-weight: normal;
+}
+
+
+.fontfont-titulo-gg-caps-1{
+font-family: 'Lilita One', sans-serif;
+font-size: 2.5rem;
+font-weight: normal;
+text-transform: uppercase;
+}
+
+.fontfont-titulo-gg-caps{
+font-family: 'Lilita One', sans-serif;
+font-size: 2.5rem;
+font-weight: normal;
+text-transform: uppercase;
+}
+
+.fontfont-titulo-gg-normal{
+font-family: 'Lilita One', sans-serif;
+font-size: 2.5rem;
+font-weight: normal;
+}
+
+.fontfont-titulo-gg-normal-1{
+font-family: 'Lilita One', sans-serif;
+font-size: 2.5rem;
+font-weight: normal;
+}
+
+
+
+.font-texto-g-sans-2{
+font-family: 'Public Sans', sans-serif;
+font-size: 2.5rem;
+font-weight: 700;
+line-height: 1.2;
+}
+
+
+.font-texto-g-sans{
+font-family: 'Public Sans', sans-serif;
+font-size: 2rem;
+font-weight: 700;
+line-height: 1.2;
+}
+
+.fontfont-titulo-ggl-1{
+font-family: 'Lilita One', sans-serif;
+font-size: 3rem;
+font-weight: normal;
+}
+
+.fontfont-titulo-ggl-1-CAPS{
+font-family: 'Lilita One', sans-serif;
+font-size: 3.375rem;
+font-weight: normal;
+text-transform: uppercase;
+}
+
+
+.fontfont-titulo-ggl{
+font-family: 'Lilita One', sans-serif;
+font-size: 3.375rem;
+font-weight: normal;
+}
+
+
+.fontfont-titulo-ggl-caps{
+font-family: 'Lilita One', sans-serif;
+font-size: 3.375rem;
+font-weight: normal;
+text-transform: uppercase;
+}
+
+
+
+
+
+/* // Planos  */
+
+
+.fontfont-titulo-plano-box-caps{
+font-family: 'Lilita One', sans-serif;
+font-size: 1.125rem;
+font-weight: normal;
+text-transform: uppercase;
+}
+
+
+.fontfont-titulo-plano{
+font-family: 'Lilita One', sans-serif;
+font-size: 2rem;
+font-weight: normal;
+}
+
+
+.font-texto-m3-1-600{
+font-family: 'Public Sans', sans-serif;
+font-size: 1.25rem;
+font-weight: 600;
+line-height: 1.2;
+}
+
+
+
+
+/*font texto*/
+
+.font-texto-m4{
+font-family: 'Lilita One', sans-serif;
+font-size: 2.5rem;
+font-weight: normal;
+}
+
+.font-texto-m3-1{
+font-family: 'Public Sans', sans-serif;
+font-size: 1.5rem;
+font-weight: 800;
+}
+
+
+.font-texto-m3-1-400{
+font-family: 'Public Sans', sans-serif;
+font-size: 1.5rem;
+font-weight: 400;
+line-height: 1.3;
+}
+
+
+.font-texto-m3{
+font-family: 'Public Sans', sans-serif;
+font-size: 1.25rem;
+font-weight: 400;
+line-height: 1.6rem;
+}
+
+.font-texto-m3-700{
+font-family: 'Public Sans', sans-serif;
+font-size: 1.25rem;
+font-weight: 700;
+line-height: 1.6rem;
+}
+
+
+
+
+.font-texto-banner{
+font-family: 'Public Sans', sans-serif;
+font-size: 2rem;
+font-weight: 400;
+line-height: 1.6rem;
+}
+
+
+.font-texto-m1{
+font-family: 'Public Sans', sans-serif;
+font-size: 1.875rem;
+font-weight: 700;
+}
+
+
+.font-texto-m1-1{
+font-family: 'Lilita One', sans-serif;
+font-size: 1.875rem;
+font-weight: normal;
+}
+
+.font-menu-links{
+font-family: 'Lilita One', sans-serif;
+font-size: 1.875rem;
+font-weight: normal;
+text-transform: uppercase;
+}
+
+
+.font-texto-m2-600{
+font-family: 'Public Sans', sans-serif;
+font-size: 1.125rem;
+font-weight: 600;
+}
+
+.font-texto-m2{
+font-family: 'Public Sans', sans-serif;
+font-size: 1.125rem;
+font-weight: 400;
+line-height: 1.5rem;
+text-transform: none;
+}
+
+.font-texto-m2-caps{
+font-family: 'Lilita One', sans-serif;
+font-size: 1.125rem;
+line-height: 1.5rem;
+text-transform: uppercase;
+font-weight: normal;
+}
+
+
+.font-texto-p{
+font-family: 'Public Sans', sans-serif;
+font-size: 1rem;
+font-weight: 400;
+}
+
+
+.font-texto-pp{
+font-family: 'Public Sans', sans-serif;
+font-size: 0.875rem;
+font-weight: 400;
+}
+
+
+.font-copy{
+font-family: 'Lilita One', sans-serif;
+font-size: 1rem;
+font-weight: normal;
+}
+
+
+/* font faq */
+
+.fontfont-titulo-faq{
+font-family: 'Lilita One', sans-serif;
+font-size: 2.5rem;
+line-height: 1;
+font-weight: normal;
+}
+
+.faq-lista-font-texto-m3{
+font-family: 'Public Sans', sans-serif;
+font-size: 1.125rem;
+font-weight: 400;
+line-height: 1.5rem;
+text-transform: none;
+}
+
+
+/*font menu*/
+.font-menu{
+font-family: 'Public Sans', sans-serif;
+font-size: 1.125rem;
+font-weight: 700;
+}
+
+
+
+
+@media(max-width: 970px){
+.fontfont-titulo-plano{
+font-size: 2.5rem;
+}
+
+.fontfont-titulo-plano-box-caps{
+font-size: 1.25rem;
+}
+
+.font-texto-m3-1-600{
+font-size: 1.563rem;
+}
+
+}
+
+
+
+
+
+@media(max-width: 768px){
+.fontfont-titulo-ggl, .fontfont-titulo-ggl-caps, .fontfont-titulo-ggl-1-CAPS{
+font-size: 3rem;
+}
+
+.fontfont-titulo-gg-caps-1, .fontfont-titulo-gg-normal-1, .font-texto-g-sans-2{
+font-size: 2rem;
+}
+
+.fontfont-titulo-ggl-1{
+font-size: 2.5rem;
+}
+
+.font-texto-m3-1-400{
+font-size: 1.25rem;
+}
+
+}
+
+
+
+@media(max-width: 580px){
+.fontfont-titulo-faq{
+font-size: 2rem;
+}
+}
+
+
+@media(max-width: 480px){
+.fontfont-titulo-ggl, .fontfont-titulo-ggl-1-CAPS{
+font-size: 2.5rem;
+}
+
+.font-texto-m4, .fontfont-titulo-gg-normal, .fontfont-titulo-ggl-caps,.fontfont-titulo-gg-caps, .fontfont-titulo-gg, .fontfont-titulo-ggl-1,.fontfont-titulo-plano {
+font-size: 2rem;
+}
+
+.font-texto-m1,.font-texto-g-sans, .fontfont-titulo-gg-caps-1, .fontfont-titulo-gg-normal-1, .font-texto-g-sans-2{
+font-size: 1.75rem;
+}
+
+.font-texto-m3-1-400{
+font-size: 1.125rem;
+}
+
+.fontfont-titulo-plano-box-caps{
+font-size: 1.125rem;
+}
+
+.font-texto-m3-1-600{
+font-family: 'Public Sans', sans-serif;
+font-size: 1.25rem;
+font-weight: 600;
+line-height: 1.2;
+}
+}
+
+
+
+
+
+
